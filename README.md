@@ -119,8 +119,6 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 | Azure Tenant ID                                         | Enter the Azure Tenant ID of the App Registration
 | Sku                                         | Select the Azure App Service pricing tier used to host the web application.
 | Recipient                                         | Enter email address of the security or incident response mailbox.
-| Allowed Recipient Base Domain                                         | Enter the base domain that the recipient email address belongs to. 
-
 
 3. Once you provide the above values, please click on `Review + create` button.
 4. After deployment is successful, go to Web App and copy the `Default domain` value from the overview section. This is referred as `domain` in later steps.
@@ -325,6 +323,3 @@ After deployment, the add-in behavior depends on the deployment method selected 
 * Reporting a sample email forwards it to **RECIPIENT**
 * Task pane messages appear correctly
 * Web App `/health` endpoint returns `{"status":"OK"}`
-
-
-

@@ -62,14 +62,6 @@
       "metadata": {
         "description": "Email address of the SOC or Incident Response mailbox where phishing emails will be reported."
       }
-    },
-
-    "AllowedRecipientBaseDomain": {
-      "type": "string",
-      "minLength": 1,
-      "metadata": {
-        "description": "The domain of Recipient must match AllowedRecipientBaseDomain or one of its subdomains."
-      }
     }
 
   },
@@ -144,13 +136,7 @@
             {
               "name": "RECIPIENT",
               "value": "[parameters('Recipient')]"
-            },
-
-            {
-              "name": "ALLOWED_RECIPIENT_BASE_DOMAIN",
-              "value": "[parameters('AllowedRecipientBaseDomain')]"
             }
-
           ]
         }
       }
