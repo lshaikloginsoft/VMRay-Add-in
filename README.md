@@ -121,16 +121,17 @@ Note: You will not be able to view Client Secret after sometime. Save it securel
 | Recipient                                         | Enter email address of the security or incident response mailbox.
 
 3. Once you provide the above values, please click on `Review + create` button.
-4. After deployment is successful, go to Web App and copy the `Default domain` value from the overview section. This is referred as `domain` in later steps.
+4. After deployment is successful, expand deployment details and click on your webapp. 
+5. In Overview, copy the `Default domain` value from the overview section. This is referred as `domain` in later steps.
 
 ![11](Images/11.png)
 
-5. Navigate to `Settings → Environment Variables` and click on `+ Add`
-6. Fill `name` as `APP_DOMAIN` and value as above copied `Domain` value. Click `Apply`
+6. Navigate to `Settings → Environment Variables` and click on `+ Add`
+7. Fill `name` as `APP_DOMAIN` and value as above copied `Domain` value. Click `Apply`
 
 ![12](Images/12.png)
 
-7. Click `Apply` and `Confirm` 
+8. Click `Apply` and `Confirm` 
 ---
 
 ## Phase 3 – Configure App Registration 
